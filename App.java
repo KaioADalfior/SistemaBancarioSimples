@@ -32,7 +32,7 @@ public class App {
                     break;
 
                 case 2:
-                    acessarConta(scanner, banco); // Corrigido para camelCase
+                    acessarConta(scanner, banco);
                     break;
                 
                 case 3:
@@ -84,7 +84,7 @@ public class App {
             menuOperacoes(scanner, contaLogada); 
 
         }else{
-            System.out.println("\n❌ ERRO: Conta não encontrada! Verfifique o número da conta!");
+            System.out.println("\n ERRO: Conta não encontrada! Verfifique o número da conta!");
         }
     }
 
